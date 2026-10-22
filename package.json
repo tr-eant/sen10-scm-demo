@@ -1,0 +1,11 @@
+{
+  "name": "scm-assignment-project",
+  "version": "1.0.0",
+  "description": "Static site with GitHub Actions CI/CD and ESLint quality gate",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
