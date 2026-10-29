@@ -18,7 +18,7 @@ describe('stampBuildTimestamp', () => {
     const el = document.getElementById('build-stamp');
 
     // The stamp should start with the expected prefix
-    expect(result).toContain('WRONG PREFIX');
+    expect(result).toContain('Page loaded on:');
     expect(el.textContent).toBe(result);
   });
 
